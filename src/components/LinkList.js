@@ -24,7 +24,7 @@ class LinkList extends Component {
           if (loading) return <div>Fetching</div>
           if (error) return <div>Error</div>
 
-          const linksToRender = data.feed.links
+          const linksToRender = data.feed.links;
 
           return (
             <div>
@@ -36,4 +36,5 @@ class LinkList extends Component {
     )
   }
 }
+
 export default LinkList;
