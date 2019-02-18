@@ -27,4 +27,4 @@ function CreateLink() {
   );
 }
 
-export default CreateLink
+export default CreateLink;
