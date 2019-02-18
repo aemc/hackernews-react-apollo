@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React, { useState } from "react";
 
-class Link extends Component {
-  render() {
-    const { link } = this.props;
-    return (
+function Link() {
+  const { link } = this.props;
+  return (
+    <div>
       <div>
-        <div>
-          {link.description} ({link.url}
-        </div>
+        {link.description} ({link.url}
       </div>
-    )
-  }
+    </div>
+  );
 }
 
-export default Link
+export default Link;
