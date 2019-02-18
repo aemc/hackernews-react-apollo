@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 
-function Link() {
-  const { link } = this.props;
+function Link(props) {
+  const { link } = props;
   return (
     <div>
-      <div>
-        {link.description} ({link.url}
-      </div>
+      {link.description} ({link.url}
     </div>
   );
 }
